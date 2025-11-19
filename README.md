@@ -101,3 +101,41 @@ Responsável: Maria Silva (coordenadora voluntária)
 ## 📞 Suporte
 Para questões técnicas, abra uma issue no repositório.
 EOL
+
+📁 ESTRUTURA DO REPOSITÓRIO
+rojeto-bibliocomunidade/
+├── ✅ README.md                    # Documentação principal
+├── ✅ docs/
+│   ├── ✅ requirements/
+│   │   └── ✅ requirements.md      # Requisitos completos
+│   ├── ✅ architecture/
+│   │   └── ✅ architecture.md      # Arquitetura detalhada
+│   └── ✅ api/
+│       └── ✅ api_documentation.md # API documentada
+├── ✅ validation/
+│   ├── ✅ target_audience.md       # Público-alvo específico
+│   ├── ✅ validation_report.md     # Validação completa
+│   ├── ✅ evidence/
+│   │   └── ✅ LEIA-ME.md
+│   └── ✅ feedback/
+│       └── ✅ LEIA-ME.md
+├── ✅ frontend/
+│   ├── ✅ web/
+│   │   ├── ✅ src/
+│   │   ├── ✅ public/
+│   │   └── ✅ package.json
+│   └── ✅ mobile/
+│       ├── ✅ src/
+│       └── ✅ package.json
+├── ✅ backend/
+│   ├── ✅ src/
+│   │   ├── ✅ controllers/
+│   │   ├── ✅ models/
+│   │   ├── ✅ routes/
+│   │   ├── ✅ config/
+│   │   ├── ✅ middleware/
+│   │   └── ✅ app.js
+│   ├── ✅ tests/
+│   └── ✅ package.json
+└── ✅ database/
+    └── ✅ schema.sql

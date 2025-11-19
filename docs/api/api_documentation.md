@@ -490,3 +490,28 @@ curl -X POST "http://localhost:3000/api/loans" \\
 # 3. Registrar devolução
 curl -X PUT "http://localhost:3000/api/loans/1/return"
 \`\`\`
+
+📋 ESTRUTURA DA DOCUMENTAÇÃO API:
+docs/api/api_documentation.md
+├── 📚 Livros (4 endpoints)
+├── 👥 Membros (2 endpoints)  
+├── 📖 Empréstimos (3 endpoints)
+├── 📊 Relatórios (2 endpoints)
+├── 🩺 Health Check
+├── ⚠️ Códigos de Erro
+└── 📝 Exemplos de Uso
+
+🎯 O QUE ESTE ARQUIVO INCLUI:
+✅ Base URL e autenticação
+
+✅ Endpoints completos para Livros, Membros, Empréstimos
+
+✅ Exemplos de request/response em JSON
+
+✅ Parâmetros de query documentados
+
+✅ Códigos de erro padronizados
+
+✅ Exemplos de uso com curl
+
+✅ Validações e regras de negócio
