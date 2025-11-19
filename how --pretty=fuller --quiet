@@ -1,0 +1,87 @@
+[33mcommit 7f59b48cfc7dd1d836ecd2f1eb7c82541eb7c378[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: José Airton <juzeairton@gmail.com>
+Date:   Tue Nov 18 22:00:28 2025 -0300
+
+    Adiciona estrutura do projeto: backend, frontend, database
+
+[33mcommit 14829a31984f77b710303429f212e5d4fc58e158[m
+Author: José Airton <juzeairton@gmail.com>
+Date:   Tue Nov 18 21:19:38 2025 -0300
+
+    feat: entrega parcial do projeto BiblioComunidade N708
+    
+    ## 🎯 ESTRUTURA COMPLETA DO PROJETO
+    
+    ### 📚 DOCUMENTAÇÃO
+    - README.md principal com documentação completa
+    - docs/requirements/ - Requisitos funcionais e não-funcionais
+    - docs/architecture/ - Arquitetura detalhada do sistema
+    - docs/api/ - Documentação completa da API REST
+    
+    ### 🎪 VALIDAÇÃO
+    - validation/target_audience.md - Público-alvo específico
+    - validation/validation_report.md - Relatório de validação
+    - validation/evidence/ - Estrutura para evidências
+    - validation/feedback/ - Estrutura para feedback
+    
+    ### 🏗️ IMPLEMENTAÇÃO
+    - frontend/web/ - Estrutura React.js
+    - frontend/mobile/ - Estrutura React Native
+    - backend/ - Estrutura Node.js + Express
+    - database/ - Scripts PostgreSQL
+    
+    ### ✅ ATENDIMENTO N708
+    - Estrutura exata de pastas conforme especificado
+    - Documentação técnica completa
+    - Validação com público-alvo documentada
+    - Preparado para desenvolvimento do código
+    
+    ## 👥 EQUIPE
+    - Gabriel de Paula Pinto Façanha - 2326319
+    - José Teófilo Silva Junior - 2326318
+    - Micael Duarte de Oliveira Neves - 2326153
+    - José Airton Jorge Ferreira da Silva - 2326337
+    - José Wellington Paiva Lopes Junior - 2315077
+    - Andre Augusto Cesar Queiroz de Souza - 2326177
+
+[33mcommit b50a18f7a5caafbb2b888139a8e96c299ba896ef[m
+Author: José Airton <juzeairton@gmail.com>
+Date:   Tue Nov 18 21:13:15 2025 -0300
+
+    feat: implementa estrutura completa do projeto BiblioComunidade N708
+    
+    ## 📚 Documentação Completa
+    - README.md principal com todas as seções obrigatórias
+    - docs/requirements/requirements.md - Requisitos funcionais e não-funcionais
+    - docs/architecture/architecture.md - Arquitetura detalhada do sistema
+    - docs/api/api_documentation.md - Documentação completa da API
+    
+    ## 🎯 Validação com Público-Alvo
+    - validation/target_audience.md - Definição específica do público-alvo
+    - validation/validation_report.md - Relatório completo da validação
+    - validation/evidence/ - Estrutura para evidências fotográficas
+    - validation/feedback/ - Estrutura para feedback coletado
+    
+    ## 🏗 Estrutura Técnica
+    - frontend/web/ - Estrutura para React.js
+    - frontend/mobile/ - Estrutura para React Native
+    - backend/ - Estrutura para Node.js + Express
+    - database/ - Scripts para PostgreSQL
+    
+    ## ✅ Atendimento aos Requisitos N708
+    - Estrutura exata de pastas conforme especificado
+    - Documentação técnica completa e atualizada
+    - Validação com público-alvo específico documentada
+    - Preparado para implementação do código fonte
+
+[33mcommit c6b8311e760d9953d8b2dc12ea8e8c6f339067f4[m
+Author: José Airton <juzeairton@gmail.com>
+Date:   Tue Nov 18 19:30:16 2025 -0300
+
+    feat: adiciona README.md inicial com documentação completa
+
+[33mcommit 0a0556376656152e5476536b9d988bd376fdccb7[m
+Author: José Airton <157987979+fullmetalcomunist@users.noreply.github.com>
+Date:   Tue Nov 18 18:41:46 2025 -0300
+
+    Initial commit
