@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Teste de Conexão API</title>
+</head>
+<body>
+    <h1>Teste de Conexão com API BiblioComunidade</h1>
+    
+    <div>
+        <button onclick="testHealth()">Testar /api/health</button>
+        <button onclick="testBooks()">Testar /api/books</button>
+        <button onclick="testMembers()">Testar /api/members</button>
+    </div>
+    
+    <div id="result" style="margin-top: 20px; padding: 10px; border: 1px solid #ccc;"></div>
+
+    <script>
+        const API_BASE = 'http://localhost:3000/api';
+        
+        async function testHealth() {
+            try {
+                const response = await fetch(API_BASE + '/health');
+                const data = await response.json();
+                showResult('✅ HEALTH - Sucesso!', data);
+            } catch (error) {
+                showResult('❌ HEALTH - Erro:', error.message);
+            }
+        }
+        
+        async function testBooks() {
+            try {
+                const response = await fetch(API_BASE + '/books');
+                const data = await response.json();
+                showResult('✅ BOOKS - Sucesso!', data);
+            } catch (error) {
+                showResult('❌ BOOKS - Erro:', error.message);
+            }
+        }
+        
+        async function testMembers() {
+            try {
+                const response = await fetch(API_BASE + '/members');
+                const data = await response.json();
+                showResult('✅ MEMBERS - Sucesso!', data);
+            } catch (error) {
+                showResult('❌ MEMBERS - Erro:', error.message);
+            }
+        }
+        
+        function showResult(title, data) {
+            const resultDiv = document.getElementById('result');
+            resultDiv.innerHTML = `
+                <h3>${title}</h3>
+                <pre>${JSON.stringify(data, null, 2)}</pre>
+            `;
+        }
+        
+        // Testar automaticamente
+        testHealth();
+    </script>
+</body>
+</html>

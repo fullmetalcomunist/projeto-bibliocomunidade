@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Teste de Conexão API</title>
+</head>
+<body>
+    <h1>Teste de Conexão com API</h1>
+    <button onclick="testAPI()">Testar API</button>
+    <div id="result"></div>
+
+    <script>
+        async function testAPI() {
+            const resultDiv = document.getElementById('result');
+            resultDiv.innerHTML = 'Testando...';
+            
+            try {
+                const response = await fetch('http://localhost:3000/api/health');
+                const data = await response.json();
+                resultDiv.innerHTML = `
+                    <h3>✅ Conexão Bem-sucedida!</h3>
+                    <pre>${JSON.stringify(data, null, 2)}</pre>
+                `;
+            } catch (error) {
+                resultDiv.innerHTML = `
+                    <h3>❌ Erro na Conexão</h3>
+                    <p>${error.message}</p>
+                    <p>Verifique se o backend está rodando na porta 3000</p>
+                `;
+            }
+        }
+        
+        // Testar automaticamente ao carregar
+        testAPI();
+    </script>
+</body>
+</html>
