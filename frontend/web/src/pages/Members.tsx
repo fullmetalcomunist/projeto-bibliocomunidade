@@ -54,7 +54,7 @@ const Members: React.FC = () => {
         response = await memberService.create(memberData);
       }
 
-      if (response.data.success) {
+      if (response.data && (response.data.success || response.data.id)) {
         alert(editingMember ? 'Membro atualizado com sucesso!' : 'Membro adicionado com sucesso!');
         setShowForm(false);
         setEditingMember(null);

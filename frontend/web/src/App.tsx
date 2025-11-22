@@ -4,10 +4,8 @@ import Header from './components/common/Header';
 import Dashboard from './pages/Dashboard';
 import Books from './pages/Books';
 import Members from './pages/Members';
+import Loans from './pages/Loans';
 import './App.css';
-
-// Pages (vamos criar depois)
-const Loans = () => <div style={{padding: '2rem', textAlign: 'center'}}>🔄 Página de Empréstimos - Em Desenvolvimento</div>;
 
 function App() {
   return (
