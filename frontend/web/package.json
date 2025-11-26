@@ -1,0 +1,17 @@
+{
+  "name": "biblioteca-frontend",
+  "version": "1.0.0",
+  "description": "Frontend do Sistema de Biblioteca",
+  "type": "module",
+  "scripts": {
+    "dev": "live-server --port=3000 --open=index.html",
+    "start": "live-server --port=3000 --open=index.html",
+    "build": "echo 'Frontend estático - não precisa de build'"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "keywords": ["biblioteca", "frontend", "html"],
+  "author": "Sua Equipe",
+  "license": "MIT"
+}
