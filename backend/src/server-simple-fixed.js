@@ -108,28 +108,41 @@ app.post('/api/books/:id/emprestar', (req, res) => {
     const bookId = parseInt(req.params.id);
     const { membroId } = req.body;
     
+    console.log('=== DEBUG EMPRÉSTIMO ===');
+    console.log('Book ID recebido:', bookId, 'Tipo:', typeof bookId);
+    console.log('Membro ID recebido:', membroId, 'Tipo:', typeof membroId);
+    console.log('Corpo da requisição:', req.body);
+    
     const livro = livros.find(l => l.id === bookId);
-    const membro = membros.find(m => m.id === membroId);
+    const membro = membros.find(m => m.id === parseInt(membroId));
+    
+    console.log('Livro encontrado:', livro);
+    console.log('Membro encontrado:', membro);
     
     if (!livro) {
+        console.log('❌ Livro não encontrado');
         return res.status(404).json({ error: 'Livro não encontrado' });
     }
     
     if (!membro) {
-        return res.status(404).json({ error: 'Membro não encontrado' });
+        console.log('❌ Membro não encontrado');
+        return res.status(404).json({ error: 'Membro não encontrado. IDs disponíveis: ' + membros.map(m => m.id).join(', ') });
     }
     
     if (livro.status !== 'disponivel') {
+        console.log('❌ Livro não disponível');
         return res.status(400).json({ error: 'Livro não disponível para empréstimo' });
     }
     
     livro.status = 'emprestado';
-    livro.membroId = membroId;
+    livro.membroId = parseInt(membroId);
     livro.dataEmprestimo = new Date().toISOString().split('T')[0];
+    
+    console.log('✅ Empréstimo realizado com sucesso!');
     
     res.json({ 
         success: true, 
-        message: `Livro emprestado para ${membro.nome} com sucesso`,
+        message: `Livro "${livro.titulo}" emprestado para ${membro.nome} com sucesso`,
         membroNome: membro.nome
     });
 });
@@ -192,9 +205,10 @@ app.get('/dashboard', (req, res) => {
 
 app.listen(PORT, () => {
     console.log(`🚀 Servidor rodando na porta ${PORT}`);
-    console.log(`📚 BiblioComunidade - Sistema de Gestão (Versão Simples)`);
+    console.log(`📚 BiblioComunidade - Sistema de Gestão (Versão Corrigida)`);
     console.log(`📍 Acesse: http://localhost:${PORT}`);
     console.log(`👤 Admin: admin / 123456`);
     console.log(`📚 ${livros.length} livros carregados`);
-    console.log(`👥 ${membros.length} membros cadastrados`);
+    console.log(`👥 ${membros.length} membros cadastrados:`);
+    membros.forEach(m => console.log(`   - ID: ${m.id}, Nome: ${m.nome}`));
 });

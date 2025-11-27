@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - BiblioComunidade</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1>📚 BiblioComunidade</h1>
+            <nav>
+                <span id="userInfo">Administrador</span>
+                <button onclick="logout()" class="btn-secondary">Sair</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="dashboard-header">
+            <h2>Dashboard</h2>
+            <div class="actions">
+                <button onclick="openAddBookModal()" class="btn-primary">➕ Adicionar Livro</button>
+            </div>
+        </div>
+
+        <!-- Cards de Estatísticas -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-icon">📖</div>
+                <div class="stat-info">
+                    <h3 id="totalLivros">0</h3>
+                    <p>Total de Livros</p>
+                </div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-icon">✅</div>
+                <div class="stat-info">
+                    <h3 id="livrosDisponiveis">0</h3>
+                    <p>Disponíveis</p>
+                </div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-icon">📚</div>
+                <div class="stat-info">
+                    <h3 id="livrosEmprestados">0</h3>
+                    <p>Emprestados</p>
+                </div>
+            </div>
+            
+            <div class="stat-card warning">
+                <div class="stat-icon">⚠️</div>
+                <div class="stat-info">
+                    <h3 id="livrosAtrasados">0</h3>
+                    <p>Atrasados</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lista de Livros -->
+        <div class="section">
+            <h3>Acervo de Livros</h3>
+            <div class="table-container">
+                <table id="booksTable">
+                    <thead>
+                        <tr>
+                            <th>Título</th>
+                            <th>Autor</th>
+                            <th>ISBN</th>
+                            <th>Status</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody id="booksTableBody">
+                        <!-- Livros serão carregados aqui -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal Adicionar Livro -->
+    <div id="addBookModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Adicionar Novo Livro</h3>
+                <span class="close" onclick="closeAddBookModal()">&times;</span>
+            </div>
+            <form id="addBookForm">
+                <div class="form-group">
+                    <label for="titulo">Título *</label>
+                    <input type="text" id="titulo" name="titulo" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="autor">Autor *</label>
+                    <input type="text" id="autor" name="autor" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="isbn">ISBN</label>
+                    <input type="text" id="isbn" name="isbn">
+                </div>
+                
+                <div class="form-actions">
+                    <button type="button" onclick="closeAddBookModal()" class="btn-secondary">Cancelar</button>
+                    <button type="submit" class="btn-primary">Adicionar Livro</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="message" class="message"></div>
+
+    <script src="js/auth.js"></script>
+    <script src="js/dashboard.js"></script>
+</body>
+</html>

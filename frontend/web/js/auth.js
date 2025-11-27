@@ -13,7 +13,7 @@ async function login(usuario, senha) {
         
         if (data.success) {
             // Salvar info do usuário no sessionStorage
-            sessionStorage.setItem('user', JSON.stringify({ usuario: 'admin' }));
+            sessionStorage.setItem('user', JSON.stringify(data.user));
             sessionStorage.setItem('isLoggedIn', 'true');
             return { success: true, message: data.message };
         } else {
@@ -33,21 +33,9 @@ function logout() {
 
 function checkAuth() {
     const isLoggedIn = sessionStorage.getItem('isLoggedIn');
-    const currentPath = window.location.pathname;
-    
-    // Se não está logado e não está na página de login, redirecionar
-    if (!isLoggedIn && !currentPath.includes('login.html')) {
+    if (!isLoggedIn && !window.location.href.includes('login.html')) {
         window.location.href = '/login.html';
-        return false;
     }
-    
-    // Se está logado e está na página de login, redirecionar para dashboard
-    if (isLoggedIn && currentPath.includes('login.html')) {
-        window.location.href = '/dashboard';
-        return false;
-    }
-    
-    return true;
 }
 
 // Event listener para o formulário de login
@@ -73,6 +61,6 @@ if (document.getElementById('loginForm')) {
 }
 
 // Verificar autenticação ao carregar páginas protegidas
-document.addEventListener('DOMContentLoaded', function() {
+if (window.location.pathname === '/dashboard' || window.location.pathname === '/dashboard.html') {
     checkAuth();
-});
+}
