@@ -16,6 +16,27 @@ Sistema digital para modernizar o gerenciamento de acervos e empréstimos em bib
 - **Frontend**: HTML, CSS, JavaScript
 - **API**: RESTful com 8 endpoints
 
+## 📱 Responsividade\
+\
+O sistema foi desenvolvido com **design responsivo** e se adapta perfeitamente a:\
+\
+- **📱 Smartphones** (375px+)\
+- **📟 Tablets** (768px+)  \
+- **💻 Desktops** (1024px+)\
+\
+### Tecnologias de Responsividade:\
+- **CSS Mobile First**\
+- **Media Queries** adaptativas\
+- **Flexbox & Grid** layouts\
+- **Unidades relativas** (rem, %)\
+- **Viewport** otimizado\
+\
+### Breakpoints Implementados:\
+- `@media (max-width: 480px)` - Mobile pequeno\
+- `@media (min-width: 768px)` - Tablet  \
+- `@media (min-width: 1024px)` - Desktop\
+\
+
 ## 📦 Instalação e Execução
 ```bash
 cd backend
