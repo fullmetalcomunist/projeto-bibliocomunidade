@@ -1,31 +1,31 @@
-**2. Documentação de Validação:**
- 'EOF'
 # Relatório de Validação com Público-Alvo
 
 ## Definição do Público-Alvo
-- **Entidade**: ------------------
-- **Responsável**: ------------------
-- **Localização**: ------------------
+- **Entidade**: Centro Comunitário da Praça das Graviolas
+- **Responsável**: Dona Fátima Maria
+- **Localização**: Rua Travessa das Graviolas, 46 - Praia de Iracema, Fortaleza-CE
 
 ## Processo de Validação
-**Data**: 25/11/2025
-**Atividades**: Apresentação do sistema, teste prático, coleta de feedback
+**Data**: 26/11/2025
+**Local**: Centro Comunitário da Praça das Graviolas
+**Atividades**: Apresentação do sistema para Dona Fátima, demonstração prática com livros infantis
 
 ## Feedback Recebido
-✅ Sistema atende necessidades básicas da biblioteca
-✅ Interface simples e fácil de usar
-✅ Controle de empréstimos resolve problema do caderno manual
+✅ Sistema perfeito para nossa biblioteca infantil
+✅ Interface simples que as crianças vão entender
+✅ Vai acabar com a confusão dos empréstimos
+✅ Organização do nosso acervo de 50 livros
 
 ## Sugestões de Melhoria
-- Adicionar busca por título/autor
-- Campo para observações sobre o livro
-- Relatório de livros mais populares
+- Cores mais vibrantes para atrair crianças
+- Campo para idade recomendada dos livros
+- Controle de livros mais emprestados para crianças
 
 ## Ajustes Implementados
-- Sistema de seleção de membro no empréstimo
-- Melhoria nas mensagens de feedback
-- Estatísticas mais claras no dashboard
+- Sistema de seleção de membro adaptado para crianças
+- Interface simplificada para uso comunitário
+- Controle específico para acervo infantil
 
 ## Conclusão
-Sistema validado com sucesso junto ao público-alvo específico.
+Sistema validado com sucesso para biblioteca infantil comunitária. Atende perfeitamente às necessidades de controle do acervo de 50 livros infantis.
 EOF

@@ -45,9 +45,11 @@ npm start
 Acesse: http://localhost:3000 (admin/123456)
 
 👥 Validação com Público-Alvo
-Público: ----------------------
-Localização: ------------------
-Resultado: Feedback positivo, sistema atende necessidades básicas
+Público: Centro Comunitário da Praça das Graviolas
+Responsável: Dona Fátima Maria
+Localização: Rua Travessa das Graviolas, 46 - Praia de Iracema, Fortaleza-CE
+Acervo: 50 livros infantis
+Resultado: Sistema validado para controle de biblioteca infantil comunitária
 
 👨‍💻 Equipe de Desenvolvimento
 Gabriel de Paula Pinto Façanha - 2326319
@@ -63,4 +65,3 @@ José Wellington Paiva Lopes Junior - 2315077
 Andre Augusto Cesar Queiroz de Souza - 2326177
 
 Repositório: https://github.com/fullmetalcomunist/projeto-biblioteca
-EOF
