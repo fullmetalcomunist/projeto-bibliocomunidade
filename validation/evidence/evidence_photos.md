@@ -17,3 +17,5 @@ Evidências coletadas:
 - Termo de autorização de uso de imagem
 
 *As evidências foram coletadas presencialmente durante a validação.*
+
+https://youtu.be/8Hr77XyjSxI

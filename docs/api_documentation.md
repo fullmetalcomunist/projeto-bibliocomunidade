@@ -1,5 +1,5 @@
 ```bash
-EOF
+
 # Documentação da API - BiblioComunidade
 
 ## Base URL
@@ -34,4 +34,3 @@ const response = await fetch('/api/auth/login', {
   body: JSON.stringify({usuario: 'admin', senha: '123456'})
 });
 Total: 8 Endpoints RESTful
-EOF

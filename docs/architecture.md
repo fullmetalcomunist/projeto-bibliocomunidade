@@ -1,4 +1,4 @@
-<< 'EOF'
+
 # Arquitetura do Sistema
 
 ## Visão Geral
@@ -27,4 +27,3 @@ text
 2. Frontend faz requisições para API
 3. Backend processa e acessa banco
 4. Resposta retorna para frontend
-EOF

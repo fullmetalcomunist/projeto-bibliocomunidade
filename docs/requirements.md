@@ -1,6 +1,5 @@
-**5. Documentação de Requisitos:**
-```bash
-<< 'EOF'
+** Documentação de Requisitos:**
+
 # Requisitos do Sistema - BiblioComunidade
 
 ## Requisitos Funcionais
@@ -28,4 +27,3 @@
 - RNF001: Interface responsiva
 - RNF002: Tempo de resposta < 3 segundos
 - RNF003: Compatibilidade com principais navegadores
-EOF
