@@ -65,3 +65,5 @@ José Wellington Paiva Lopes Junior - 2315077
 Andre Augusto Cesar Queiroz de Souza - 2326177
 
 Repositório: https://github.com/fullmetalcomunist/projeto-biblioteca
+youtube    : https://youtu.be/8Hr77XyjSxI
+render     : https://bibliocomunidade-api.onrender.com
