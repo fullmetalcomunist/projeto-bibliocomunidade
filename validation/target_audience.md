@@ -1,5 +1,7 @@
 # Definição Específica do Público-Alvo
 
+Sistema de biblioteca para comunidade principalmente crianças.
+
 ## Identificação Completa
 - **Nome**: Centro Comunitário da Praça das Graviolas
 - **Responsável**: Dona Fátima Maria
@@ -30,3 +32,9 @@
 - Controlar empréstimos para crianças da comunidade
 - Reduzir perdas de livros infantis
 - Facilitar acesso à leitura para crianças
+
+## Vinculação com ODS 11
+Este projeto contribui para o **ODS 11: Cidades e Comunidades Sustentáveis** ao:
+- Promover acesso à leitura em comunidade periférica
+- Fortalecer espaços culturais locais
+- Digitalizar gestão comunitária
