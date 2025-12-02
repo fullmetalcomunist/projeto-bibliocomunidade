@@ -42,7 +42,8 @@ O sistema foi desenvolvido com **design responsivo** e se adapta perfeitamente a
 cd backend
 npm install
 npm start
-Acesse: http://localhost:3000 (admin/123456)
+Acesse: http://localhost:3000 
+Credenciais de teste: (admin/123456)
 
 👥 Validação com Público-Alvo
 Público: Centro Comunitário da Praça das Graviolas
@@ -64,6 +65,6 @@ José Wellington Paiva Lopes Junior - 2315077
 
 Andre Augusto Cesar Queiroz de Souza - 2326177
 
-Repositório: https://github.com/fullmetalcomunist/projeto-biblioteca
-youtube    : https://youtu.be/8Hr77XyjSxI
-render     : https://bibliocomunidade-api.onrender.com
+[![Assista ao vídeo] Repositório : https://github.com/fullmetalcomunist/projeto-biblioteca
+[![Assista ao vídeo]youtube    : https://youtu.be/8Hr77XyjSxI
+[![Assista ao vídeo]render     : https://bibliocomunidade-api.onrender.com
