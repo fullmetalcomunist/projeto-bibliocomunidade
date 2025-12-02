@@ -1,21 +1,15 @@
 # Evidências de Validação
 
-Esta pasta vai conter evidencias 
-
-Esta pasta deve conter as evidências fotográficas ou de vídeo da validação com o público-alvo.
-
 Evidências coletadas:
-- Foto da apresentação para Dona Fátima Maria
+- Registro de uma parte da apresentação do programa através de runião online
 - Registro da demonstração do sistema
 - Termo de autorização de uso de imagem
 
-*As evidências foram coletadas presencialmente durante a validação.*
+## Evidência em Vídeo
 
-Evidências coletadas:
-- Foto da apresentação para Dona Fátima Maria
-- Registro da demonstração do sistema
-- Termo de autorização de uso de imagem
+Assista à apresentação para o público-alvo:
 
-*As evidências foram coletadas presencialmente durante a validação.*
+[![Assista ao vídeo]https://www.youtube.com/watch?si=1aiMS4tkkzJwuh-8&v=ahl3ppfAMvg&feature=youtu.be
+ ## Sistema rodando
+[![Assista ao vídeo]https://youtu.be/8Hr77XyjSxI
 
-https://youtu.be/8Hr77XyjSxI

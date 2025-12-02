@@ -1,32 +1,46 @@
 # Definição Específica do Público-Alvo
 
-## Identificação Completa
-- **Nome**: Centro Comunitário da Praça das Graviolas
-- **Responsável**: Dona Fátima Maria
-- **Endereço**: Rua Travessa das Graviolas, 46 - Praia de Iracema, Fortaleza-CE
-- **Telefone**: (85) 99800-9812
+📈 Análise Rápida dos Dados:
+Pontos Positivos:
+100% dos usuários consideraram a navegação clara e intuitiva
 
-## Contexto e Necessidades
-- Biblioteca comunitária com aproximadamente 50 livros
-- Foco em livros infantis para crianças da comunidade
-- Gestão manual em caderno
-- Localizada em centro comunitário de praça pública
-- Atende principalmente crianças do entorno
+100% avaliaram com nota máxima (5.0) de satisfação
 
-## Problemas Identificados
-1. Controle manual de empréstimos infantis
-2. Dificuldade em organizar acervo pequeno mas essencial
-3. Falta de controle de quais crianças pegaram quais livros
-4. Livros infantis frequentemente extraviados
+100% utilizariam o sistema quando finalizado
 
-## Necessidades Específicas
-- Sistema simples para controle de livros infantis
-- Interface colorida e atrativa para crianças
-- Controle básico de empréstimos
-- Relatório de livros mais populares entre crianças
+91% não encontraram erros (10/11)
 
-## Critérios de Sucesso
-- Organizar acervo de 50 livros infantis
-- Controlar empréstimos para crianças da comunidade
-- Reduzir perdas de livros infantis
-- Facilitar acesso à leitura para crianças
+Experiência inicial: 64% "Muito fácil", 36% "Fácil"
+
+Sugestões de Melhoria:
+"deixar implementar futuramente novas funções de busca de livros" (Fatima)
+
+Apenas 2 pessoas deram sugestões específicas
+
+Feedback Qualitativo:
+"Amei, é ótimo para desenvolver a leitura nos bairros" (Roseli)
+
+"Nunca tinha visto algo como essa biblioteca" (Cauã)
+
+"Para mim, era o que precisava!" (Jonas)
+
+"Didático, posso saber se estou em atraso ou não" (Rafael)
+
+# Análise do Feedback dos Usuários
+
+## Resumo Estatístico
+- Total de participantes: 11
+- Satisfação média: 5.0/5.0
+- Taxa de aceitação: 100% utilizariam o sistema
+- Taxa de erros: 9% (apenas 1 pessoa relatou problema menor)
+
+## Principais Insights
+1. **Interface aprovada**: Todos consideraram a navegação clara
+2. **Funcionalidades úteis**: Sistema atende necessidades reais
+3. **Impacto social**: Vários comentaram sobre acesso à leitura
+
+## Sugestões Implementadas/Implementáveis
+- [ ] Aprimorar funcionalidades de busca (sugerido por Fatima)
+
+## Anexos
+- [Planilha completa](FeedbackFeedback dos usuários (respostas).xlsx)
